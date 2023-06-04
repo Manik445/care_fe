@@ -504,7 +504,7 @@ export const Feed: React.FC<IFeedProps> = ({ consultationId, facilityId }) => {
             />
           </div>
         </div>
-        <div className="absolute bottom-8 right-8 z-20">
+        <div className="absolute bottom-8 left-5 z-20">
           <FeedButton
             camProp={cameraPTZ[4]}
             styleType="CHHOTUBUTTON"
